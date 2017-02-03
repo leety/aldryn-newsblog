@@ -44,6 +44,9 @@ from .utils import strip_tags, get_plugin_index_data, get_request
 
 import django.core.validators
 
+# added for M2M authors
+from aldryn_common.admin_fields.sortedm2m import SortedM2MModelField
+
 if settings.LANGUAGES:
     LANGUAGE_CODES = [language[0] for language in settings.LANGUAGES]
 elif settings.LANGUAGE:
