@@ -2,20 +2,8 @@
 Aldryn News & Blog for django CMS
 #################################
 
-|PyPI Version| |Build Status| |Coverage Status| |codeclimate| |requires_io|
-
-Aldryn News & Blog is an `Aldryn <http://aldryn.com>`_-compatible news and
-weblog application for `django CMS <http://django-cms.org>`_.
-
-**Content editors** looking for documentation on how to use the editing
-interface should refer to our `user manual`_ section.
-
-**Django developers** who want to learn more about django CMS, as well as
-how to install, configure and customize it for their own projects should
-refer to the `documentation`_ sections.
-
-Aldryn News & Blog is intended to serve as a model of good practice for
-development of django CMS and Aldryn applications.
+This is a forked version for aldryn newsblog.  I am trying to forking it to allow adding multiple authors 
+associate with the article.  
 
 .. _user manual: http://aldryn-newsblog.readthedocs.io/en/latest/
 
