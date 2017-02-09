@@ -2,7 +2,7 @@
 Aldryn News & Blog for django CMS
 #################################
 
-This is a forked version for aldryn newsblog.  I am trying to forking it to allow adding multiple authors 
+This is a forked version for aldryn newsblog.  I added some code to allow adding multiple authors 
 associate with the article.  
 
 .. _user manual: http://aldryn-newsblog.readthedocs.io/en/latest/
