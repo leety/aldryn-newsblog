@@ -153,7 +153,7 @@ class ArticleAdmin(
         data = request.GET.copy()
         try:
             person = Person.objects.get(user=request.user)
-            data['author'] = person.pk
+            data['author'] = str(person.pk)
             request.GET = data
         except Person.DoesNotExist:
             pass
